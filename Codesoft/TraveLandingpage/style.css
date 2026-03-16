@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: #4A6D7C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.15rem;
+}
+
+.nav_item {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        font-style: normal;
+}
+.opt1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#x {
+    margin-left: 10px;
+    color: #000;
+    font-size: 1.25rem;
+}
+#y {
+    padding-right: 30px;
+}
+#opt {
+    margin-right: 30px;
+}
+.imagecover {
+    width: 1520PX;
+    height: 425px;
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.write {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    padding-left: 10px;
+    
+}
+.write :hover {
+    opacity: 1;
+}
+.write1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 35px;
+    
+}
+.write2 {
+    /* font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1.25rem;
+    color: var(--text-dark);
+    max-width: calc(var(--max-width) / 2);
+    margin-top: 10px;
+    padding-left: 35px;
+}
+.write > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.write:hover > *{
+    transform: translateY(0px);
+}
+.button {
+    padding-left: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 1.05rem;
+    color: var(--extra-light);
+    background-color: #3685FB;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5rem;
+    margin-left: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usericon {
+    color: #000;
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+.trip {
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.border {
+    border: 2px solid white;
+}
+.border:hover {
+    border: 2px solid black;
+}
+.image1 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/m_Goa_3_l_666_1000.avif);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image2 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/Explore-the-Most-Important-Places-to-Visit-near-Shimla.avif);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image3 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/gulmarg.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image4 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/photo-1563177682-6af44e531038.avif);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.title {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.5rem;
+}
+.subtitle {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.trip1 {
+    background-color: #DBFCFF;
+}
+.fa-solid  {
+    color: #DAA520;
+    padding-top: 8px;
+}
+.fa-indian-rupee-sign {
+    color: black;
+    padding-left: 8px;
+}
+.fa-user {
+    color: black;
+}
+.booknow {
+    height: 30px;
+    width: 90px;
+    outline: none;
+    border: 1.75px solid #3685FB;
+    border-radius: 3rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+.booknow:hover {
+    color: var(--extra-light);
+    background-color: #3685FB;
+}
+.bookingprice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goa {
+    padding-top: 5px;
+}
+.btn {
+    height: 30px;
+    width: 90px;
+    outline: none;
+    border: 1.75px solid #3685FB;
+    border-radius: 3rem;
+    background-color: #3685FB;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.viewall {
+    padding-left: 700px;
+}
+.image5 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/bali.avif);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image6 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/lakswaseep.avif);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image7 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/switzerland.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.image8 {
+    height: 330px;
+    width: 290px;
+    background-image: url(images/giza2.jpg);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 1.35rem;
+}
+.title6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.subtitle6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+.footercontainer {
+    height: 300px;
+    width: 1520px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+    background-color: #444B6E;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.foot4 {
+    height: 22px;
+    width: 1520px;
+    text-align: center;
+    background-color: #444B6E;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
